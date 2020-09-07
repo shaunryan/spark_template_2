@@ -1,0 +1,5 @@
+version := "1.0"
+
+ThisBuild / scalaVersion := "2.12.8"
+
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.4"
